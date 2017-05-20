@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Setting ID="1">
+    <title>二值化阈值</title>
+    <status>14</status>
+  </Setting>
+  <Setting ID="2">
+    <title>工业相机保存照片地址</title>
+    <status>D:\猕猴桃检测\Test</status>
+  </Setting>
+  <Setting ID="3">
+    <title>自动运行参数</title>
+    <status>是</status>
+  </Setting>
+  <Setting ID="4">
+    <title>处理函数触发间隔</title>
+    <status>1000</status>
+  </Setting>
+</Settings>
