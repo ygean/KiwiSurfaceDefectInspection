@@ -85,8 +85,9 @@
                 top: 30px; /* Set the top position of pinned element */
             }
             footer{
+                margin-top:50px;
                 width:auto;
-                height:150px;
+                height:250px;
                 background-color:#000;
             }
             footer p{
@@ -96,7 +97,7 @@
             }
             .main{
                 border:1px solid #ddd;
-                padding-right:1px;   
+                padding-right:1px;                 
                 margin-left:10px;             
             }
             .navigation{
@@ -113,9 +114,11 @@
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy">
-    <div class="navigation">
-        <h2><a href="https://github.com/AllenZhou1996/KiwiSurfaceDefectInspection">猕猴桃表面缺陷检测【软件】</a></h2>
-        <p class="text-right"><a href="https://github.com/AllenZhou1996/KiwiSurfaceDefectInspection" target="_blank">GitHub项目地址</a></p>
+    <div class="col-lg-12 navigation">
+        <h3><a href="https://github.com/AllenZhou1996/KiwiSurfaceDefectInspection">猕猴桃表面缺陷检测【软件】</a></h3>        
+    </div>
+    <div class="col-sm-12">        
+        <p class="text-right"><a href="https://github.com/AllenZhou1996/KiwiSurfaceDefectInspection" target="_blank"><b>GitHub项目地址</b></a></p>        
     </div>
     <div class="container">        
         <div class="row">
@@ -134,20 +137,20 @@
                 <hr>
                 <h2 id="section-2">图像采集</h2>
                 <p>在白光照射下用工业相机对猕猴果实进行图像采集。</p>
-                <p class="text-success">框架图：</p>
-                <p><img class="img-rounded" style="width:220px;" src="http://ovzxu2ccl.bkt.clouddn.com/frame.png" /></p>
+                <p class="text-primary">框架图：</p>
+                <p><img class="img-rounded" style="width:190px;" src="http://ovzxu2ccl.bkt.clouddn.com/frame.png" /></p>
                 <hr>
                 <h2 id="section-3">图像处理</h2>
                 <p>主要是基于Microsoft Visual Studio2013设计的软件界面，运用相关的C#中图像处理和检测的算法，对猕猴桃果实图像进行去燥灰度化二值化处理图像并获取最佳阈值，最后图像分割得到猕猴桃果实表面的黑色斑点区域，包括真正的缺陷区域和梗萼区域。</p>
-                <p class="text-success">原始图像：</p>
-                <p><img class="img-rounded" style="width:220px;" src="http://ovzxu2ccl.bkt.clouddn.com/mihoutao.png" /></p>
-                <p class="text-success">处理结果：</p>
-                <p><img class="img-rounded" style="width:220px;" src="http://ovzxu2ccl.bkt.clouddn.com/result.png" /></p>
+                <p class="text-primary">原始图像：</p>
+                <p><img class="img-rounded" style="width:190px;" src="http://ovzxu2ccl.bkt.clouddn.com/mihoutao.png" /></p>
+                <p class="text-primary">处理结果：</p>
+                <p><img class="img-rounded" style="width:190px;" src="http://ovzxu2ccl.bkt.clouddn.com/result.png" /></p>
                 <hr>
                 <h2 id="section-4">模块通信</h2>
                 <p>相机自动采集图像并存至预先设定的盘内，计算机自动处理图像并将处理水果的结果通过串口通信传给单片机，处理结果分五个等级，单片机接受这个五个等级所携带的信息作出相应动作指令，实现自动化剔除缺陷水果果实和保留无缺陷水果果实的功能。</p>
-                <p class="text-success">软件截图：</p>
-                <p><img class="img-rounded" style="width:220px;" src="http://ovzxu2ccl.bkt.clouddn.com/processpic.png" /></p>                                
+                <p class="text-primary">软件截图：</p>
+                <p><img class="img-rounded" style="width:190px;" src="http://ovzxu2ccl.bkt.clouddn.com/processpic.png" /></p>                                
             </div>
         </div>
     </div>
@@ -156,7 +159,7 @@
             我的个人网站 <a href="http://www.libertas.ren" target="_blank">点将台无将</a>
         <br />
         @2017 <a href="https://github.com/AllenZhou1996" target="_blank">AllenZhou1996·Github</a> All Rights Reserved</p>
-        <p class="text-center">友情链接 </p>
+        
     </footer>
 </body>
 </html>
